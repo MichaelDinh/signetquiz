@@ -1,7 +1,8 @@
 """Map RAADS quiz answers to signets.
 
 Score vector -> normalized distance from the max corner -> equal-frequency bins.
-Inntinnsic is reserved for the exact max vector; the other signets split the rest.
+Xaddy is reserved for the exact max vector and Inntinnsic for the exact min vector;
+the other signets split the rest.
 """
 import csv
 import itertools
@@ -12,7 +13,8 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 DIMS = ["SR", "SM", "CI", "L"]
-TOP_SIGNET = "Inntinnsic"
+MAX_SIGNET = "Xaddy"
+MIN_SIGNET = "Inntinnsic"
 
 
 def load_items():
@@ -34,12 +36,12 @@ def load_items():
 def load_signets():
     with open(HERE / "signets.csv", newline="", encoding="utf-8-sig") as f:
         names = [row["Signet"] for row in csv.DictReader(f)]
-    return [TOP_SIGNET] + [n for n in names if n != TOP_SIGNET]
+    return [n for n in names if n not in (MAX_SIGNET, MIN_SIGNET)]
 
 
 ITEMS = load_items()
 SIGNETS = load_signets()
-N_BINS = len(SIGNETS)
+N_BINS = len(SIGNETS)  # signets sharing the middle; the two extremes are reserved
 
 # Score range per dimension: false adds nothing, so min is the sum of negatives, max the sum of positives.
 LO = {d: sum(min(0, i.get(d, 0)) for i in ITEMS) for d in DIMS}
@@ -64,19 +66,20 @@ def distance(vec):
 
 
 MAX_VEC = tuple(HI[d] for d in DIMS)
+MIN_VEC = tuple(LO[d] for d in DIMS)
 
 
 def build_table():
     counts = Counter(score(a) for a in itertools.product([False, True], repeat=len(ITEMS)))
-    rest = {v: c for v, c in counts.items() if v != MAX_VEC}
+    rest = {v: c for v, c in counts.items() if v not in (MAX_VEC, MIN_VEC)}
     total = sum(rest.values())
     # Tie-break on raw sum, then SR, so the order is deterministic.
     ordered = sorted(rest, key=lambda v: (distance(v), -sum(v), -v[0], v))
-    table = {MAX_VEC: SIGNETS[0]}
+    table = {MAX_VEC: MAX_SIGNET, MIN_VEC: MIN_SIGNET}
     seen = 0
     for v in ordered:
         mid = seen + rest[v] / 2  # a vector straddling a cutoff goes where its midpoint falls
-        table[v] = SIGNETS[1 + min(N_BINS - 2, int(mid / total * (N_BINS - 1)))]
+        table[v] = SIGNETS[min(N_BINS - 1, int(mid / total * N_BINS))]
         seen += rest[v]
     return table, counts
 
@@ -91,11 +94,12 @@ def signet_for(answers):
 if __name__ == "__main__":
     print("Ranges:", {d: (LO[d], HI[d]) for d in DIMS})
     print("Max vector:", dict(zip(DIMS, MAX_VEC)), "patterns:", COUNTS[MAX_VEC])
+    print("Min vector:", dict(zip(DIMS, MIN_VEC)), "patterns:", COUNTS[MIN_VEC])
     print("Distinct score vectors:", len(COUNTS), "of", sum(COUNTS.values()), "patterns\n")
     per_signet = Counter()
     for v, s in TABLE.items():
         per_signet[s] += COUNTS[v]
-    for s in SIGNETS:
+    for s in [MAX_SIGNET, MIN_SIGNET] + SIGNETS:
         print(f"{per_signet[s]:6d}  {s}")
     with open(HERE / "signet_table.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)

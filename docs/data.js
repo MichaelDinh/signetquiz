@@ -74,7 +74,8 @@ const QUIZ_DATA = {
   }
  ],
  "table": {
-  "3,4,3,3": "Inntinnsic",
+  "3,4,3,3": "Xaddy",
+  "-5,0,-2,-3": "Inntinnsic",
   "2,4,3,3": "Agrarian",
   "3,4,3,2": "Agrarian",
   "2,4,3,2": "Agrarian",
@@ -584,8 +585,7 @@ const QUIZ_DATA = {
   "-4,0,-2,-2": "Weakness Detection",
   "-5,1,-2,-3": "Weakness Detection",
   "-5,0,-2,-2": "Weakness Detection",
-  "-4,0,-2,-3": "Weakness Detection",
-  "-5,0,-2,-3": "Weakness Detection"
+  "-4,0,-2,-3": "Weakness Detection"
  },
  "signets": {
   "Agrarian": {
@@ -715,6 +715,10 @@ const QUIZ_DATA = {
   "Weakness Detection": {
    "type": "Psychic",
    "description": "Ability to look at someone and know their greatest weakness."
+  },
+  "Xaddy": {
+   "type": "",
+   "description": "I bet you taste as good as you feel."
   }
  }
 };

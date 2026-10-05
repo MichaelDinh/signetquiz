@@ -1,5 +1,5 @@
 SR,SM,CI,L,distance,patterns,signet
-3,4,3,3,0.0000,2,Inntinnsic
+3,4,3,3,0.0000,2,Xaddy
 2,4,3,3,0.1250,2,Agrarian
 3,4,3,2,0.1667,2,Agrarian
 2,4,3,2,0.2083,10,Agrarian
@@ -510,4 +510,4 @@ SR,SM,CI,L,distance,patterns,signet
 -5,1,-2,-3,1.8875,4,Weakness Detection
 -5,0,-2,-2,1.9221,2,Weakness Detection
 -4,0,-2,-3,1.9405,2,Weakness Detection
--5,0,-2,-3,2.0000,2,Weakness Detection
+-5,0,-2,-3,2.0000,2,Inntinnsic
