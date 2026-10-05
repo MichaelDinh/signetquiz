@@ -1,0 +1,513 @@
+SR,SM,CI,L,distance,patterns,signet
+3,4,3,3,0.0000,2,Inntinnsic
+2,4,3,3,0.1250,2,Agrarian
+3,4,3,2,0.1667,2,Agrarian
+2,4,3,2,0.2083,10,Agrarian
+2,4,2,3,0.2358,4,Agrarian
+3,3,3,3,0.2500,4,Agrarian
+2,3,3,3,0.2795,4,Agrarian
+2,4,2,2,0.2888,6,Agrarian
+3,3,3,2,0.3005,4,Agrarian
+1,4,3,2,0.3005,8,Agrarian
+3,3,2,3,0.3202,4,Agrarian
+1,4,2,3,0.3202,4,Agrarian
+2,3,3,2,0.3254,20,Agrarian
+2,3,2,3,0.3437,12,Agrarian
+2,4,3,1,0.3560,8,Agrarian
+3,3,2,2,0.3609,4,Agrarian
+1,4,2,2,0.3609,22,Agrarian
+2,3,2,2,0.3820,32,Agrarian
+1,3,3,2,0.3909,16,Agrarian
+1,3,2,3,0.4062,8,Agrarian
+2,4,2,1,0.4083,2,Agrarian
+1,4,3,1,0.4167,20,Agrarian
+2,3,3,1,0.4350,16,Agrarian
+1,3,2,2,0.4391,60,Agrarian
+0,4,2,2,0.4565,16,Agrarian
+1,4,2,1,0.4622,26,Agrarian
+1,4,1,3,0.4717,2,Agrarian
+2,3,2,1,0.4788,20,Agrarian
+1,3,3,1,0.4859,40,Agrarian
+2,3,1,3,0.4880,8,Agrarian
+3,2,3,3,0.5000,2,Agrarian
+1,4,1,2,0.5003,6,Agrarian
+0,4,3,1,0.5017,12,Agrarian
+2,2,3,3,0.5154,2,Agrarian
+2,3,1,2,0.5157,12,Agrarian
+0,3,2,2,0.5205,32,Agrarian
+1,3,2,1,0.5255,92,Agrarian
+3,2,3,2,0.5270,2,Air Manipulation / Wind Wielding
+1,3,1,3,0.5339,12,Air Manipulation / Wind Wielding
+3,2,2,3,0.5385,8,Air Manipulation / Wind Wielding
+0,4,2,1,0.5401,48,Air Manipulation / Wind Wielding
+2,2,3,2,0.5417,10,Air Manipulation / Wind Wielding
+0,4,1,3,0.5483,2,Air Manipulation / Wind Wielding
+2,2,2,3,0.5528,12,Air Manipulation / Wind Wielding
+1,4,3,0,0.5590,12,Air Manipulation / Wind Wielding
+1,3,1,2,0.5593,56,Air Manipulation / Wind Wielding
+0,3,3,1,0.5606,24,Air Manipulation / Wind Wielding
+3,2,2,2,0.5637,8,Air Manipulation / Wind Wielding
+0,4,1,2,0.5731,14,Air Manipulation / Wind Wielding
+2,2,2,2,0.5774,46,Air Manipulation / Wind Wielding
+1,4,1,1,0.5776,4,Air Manipulation / Wind Wielding
+1,2,3,2,0.5833,8,Air Manipulation / Wind Wielding
+2,3,1,1,0.5910,4,Air Manipulation / Wind Wielding
+1,2,2,3,0.5937,4,Air Manipulation / Wind Wielding
+1,4,2,0,0.5937,8,Air Manipulation / Wind Wielding
+0,3,2,1,0.5952,120,Air Manipulation / Wind Wielding
+0,3,1,3,0.6026,4,Air Manipulation / Wind Wielding
+1,3,3,0,0.6124,24,Air Manipulation / Wind Wielding
+2,2,3,1,0.6138,8,Air Manipulation / Wind Wielding
+1,2,2,2,0.6167,54,Air Manipulation / Wind Wielding
+0,4,3,0,0.6250,20,Air Manipulation / Wind Wielding
+0,3,1,2,0.6252,60,Astral Projection
+1,3,1,1,0.6294,60,Astral Projection
+-1,4,2,1,0.6333,24,Astral Projection
+3,2,1,3,0.6403,2,Astral Projection
+0,4,1,1,0.6417,28,Astral Projection
+1,3,2,0,0.6442,40,Astral Projection
+2,2,2,1,0.6456,34,Astral Projection
+1,2,3,1,0.6509,20,Astral Projection
+2,2,1,3,0.6524,18,Astral Projection
+0,4,2,0,0.6562,44,Astral Projection
+3,2,1,2,0.6616,2,Astral Projection
+-1,4,1,2,0.6616,8,Astral Projection
+0,3,3,0,0.6731,40,Astral Projection
+2,2,1,2,0.6734,34,Astral Projection
+0,2,2,2,0.6771,16,Astral Projection
+1,2,2,1,0.6809,106,Astral Projection
+-1,3,2,1,0.6809,48,Battle Foresight
+1,2,1,3,0.6874,18,Battle Foresight
+0,3,1,1,0.6886,152,Battle Foresight
+1,3,0,3,0.6964,4,Battle Foresight
+0,3,2,0,0.7022,128,Battle Foresight
+-1,4,3,0,0.7071,8,Battle Foresight
+1,2,1,2,0.7073,102,Battle Foresight
+-1,3,1,2,0.7073,16,Battle Foresight
+0,2,3,1,0.7083,12,Battle Foresight
+1,3,0,2,0.7161,12,Battle Foresight
+-1,4,1,1,0.7219,36,Battle Foresight
+0,4,0,2,0.7269,2,Countering Signet
+1,3,1,0,0.7314,16,Countering Signet
+2,2,1,1,0.7326,16,Countering Signet
+-1,4,2,0,0.7348,52,Countering Signet
+0,2,2,1,0.7360,96,Countering Signet
+0,2,1,3,0.7420,2,Countering Signet
+0,4,1,0,0.7420,16,Countering Signet
+1,2,3,0,0.7500,12,Countering Signet
+-1,3,3,0,0.7500,16,Countering Signet
+0,3,0,3,0.7504,4,Countering Signet
+0,2,1,2,0.7605,78,Countering Signet
+1,2,1,1,0.7639,128,Countering Signet
+-1,3,1,1,0.7639,120,Countering Signet
+0,4,3,-1,0.7649,8,Distance Wielder
+0,3,0,2,0.7687,32,Distance Wielder
+1,3,0,1,0.7721,8,Distance Wielder
+3,1,2,3,0.7762,4,Distance Wielder
+1,2,2,0,0.7762,56,Distance Wielder
+-1,3,2,0,0.7762,120,Distance Wielder
+0,4,0,1,0.7821,2,Distance Wielder
+0,3,1,0,0.7830,120,Distance Wielder
+2,1,2,3,0.7862,4,Distance Wielder
+0,4,2,-1,0.7906,12,Distance Wielder
+2,2,0,3,0.7910,4,Distance Wielder
+3,1,2,2,0.7939,4,Distance Wielder
+-1,4,0,2,0.7986,2,Distance Wielder
+0,2,3,0,0.8004,20,Distance Wielder
+2,1,2,2,0.8037,20,Distance Wielder
+0,3,3,-1,0.8047,16,Distance Wielder
+-1,2,2,1,0.8069,24,Distance Wielder
+2,2,0,2,0.8083,6,Distance Wielder
+-1,4,1,0,0.8124,52,Dream Walker
+0,2,1,1,0.8135,232,Dream Walker
+-2,4,1,1,0.8135,12,Dream Walker
+1,2,0,3,0.8201,12,Dream Walker
+0,3,0,1,0.8211,60,Dream Walker
+0,2,2,0,0.8250,124,Dream Walker
+-2,4,2,0,0.8250,16,Dream Walker
+0,3,2,-1,0.8292,40,Dream Walker
+-1,2,1,2,0.8293,8,Dream Walker
+1,1,2,2,0.8323,16,Earth Wielding
+-1,4,3,-1,0.8333,10,Earth Wielding
+1,2,0,2,0.8368,46,Earth Wielding
+-1,3,0,2,0.8368,20,Earth Wielding
+-1,4,0,1,0.8492,10,Earth Wielding
+3,1,1,3,0.8500,4,Earth Wielding
+1,2,1,0,0.8500,44,Earth Wielding
+-1,3,1,0,0.8500,208,Earth Wielding
+-2,3,1,1,0.8510,24,Earth Wielding
+2,1,2,1,0.8540,16,Earth Wielding
+-1,4,2,-1,0.8570,36,Earth Wielding
+2,2,0,1,0.8583,2,Earth Wielding
+2,1,1,3,0.8591,12,Earth Wielding
+-2,3,2,0,0.8620,32,Earth Wielding
+-1,2,3,0,0.8660,8,Earth Wielding
+3,1,1,2,0.8662,4,Earth Wielding
+0,2,0,3,0.8664,8,Earth Wielding
+-1,3,3,-1,0.8700,20,Earth Wielding
+2,1,1,2,0.8752,32,Farsight
+-1,2,1,1,0.8781,132,Farsight
+1,1,2,1,0.8810,40,Farsight
+0,2,0,2,0.8823,74,Farsight
+1,2,0,1,0.8852,42,Farsight
+-1,3,0,1,0.8852,92,Farsight
+1,1,1,3,0.8860,8,Farsight
+-1,2,2,0,0.8888,84,Farsight
+-1,3,2,-1,0.8927,92,Fire Wielding
+0,2,1,0,0.8948,212,Fire Wielding
+-2,4,1,0,0.8948,44,Fire Wielding
+0,3,1,-1,0.8986,24,Fire Wielding
+1,1,1,2,0.9015,60,Fire Wielding
+0,3,0,0,0.9017,32,Fire Wielding
+0,2,3,-1,0.9138,8,Fire Wielding
+-2,4,3,-1,0.9138,2,Fire Wielding
+2,1,1,1,0.9215,20,Fire Wielding
+0,1,2,1,0.9242,24,Fire Wielding
+-1,4,1,-1,0.9244,24,Fire Wielding
+-1,4,0,0,0.9274,8,Fire Wielding
+0,2,0,1,0.9283,162,Ice Wielding
+-2,4,0,1,0.9283,8,Ice Wielding
+-2,3,1,0,0.9290,120,Ice Wielding
+0,3,-1,2,0.9332,4,Ice Wielding
+0,2,2,-1,0.9355,44,Ice Wielding
+-2,4,2,-1,0.9355,28,Ice Wielding
+-1,2,0,2,0.9422,34,Ice Wielding
+0,1,1,2,0.9439,32,Ice Wielding
+1,1,1,1,0.9466,92,Ice Wielding
+-2,3,3,-1,0.9474,4,Ice Wielding
+-1,2,1,0,0.9539,268,Illusionist
+-2,2,1,1,0.9548,12,Illusionist
+1,1,2,0,0.9566,24,Illusionist
+-1,3,1,-1,0.9576,120,Illusionist
+1,2,0,0,0.9605,8,Illusionist
+-1,3,0,0,0.9605,120,Illusionist
+-2,3,0,1,0.9614,40,Lightning Wielding
+-2,2,2,0,0.9647,16,Lightning Wielding
+-2,3,2,-1,0.9683,60,Lightning Wielding
+2,1,0,3,0.9686,8,Lightning Wielding
+-1,4,3,-2,0.9718,2,Lightning Wielding
+-1,2,3,-1,0.9718,10,Lightning Wielding
+1,2,-1,3,0.9760,2,Lightning Wielding
+0,3,-1,1,0.9769,4,Lightning Wielding
+2,1,0,2,0.9828,12,Lightning Wielding
+-1,2,0,1,0.9854,178,Lightning Wielding
+-3,4,1,0,0.9862,8,Lightning Wielding
+0,1,1,1,0.9870,120,Lightning Wielding
+1,2,-1,2,0.9901,6,Lightning Wielding
+-1,3,-1,2,0.9901,4,Lightning Wielding
+-1,4,2,-2,0.9922,8,Lightning Wielding
+-1,2,2,-1,0.9922,76,Memory Erasure
+1,1,0,3,0.9925,12,Memory Erasure
+0,1,2,0,0.9966,40,Memory Erasure
+0,2,1,-1,0.9975,56,Memory Erasure
+-2,4,1,-1,0.9975,48,Memory Erasure
+0,2,0,0,1.0003,108,Memory Erasure
+-2,4,0,0,1.0003,20,Memory Erasure
+-1,3,3,-2,1.0035,4,Memory Erasure
+1,1,0,2,1.0064,56,Memory Erasure
+0,2,-1,3,1.0152,2,Memory Erasure
+1,1,1,0,1.0173,40,Memory Erasure
+-3,3,1,0,1.0173,16,Memory Erasure
+-1,3,2,-2,1.0232,20,Memory Erasure
+-3,4,2,-1,1.0232,4,Memory Erasure
+2,1,0,1,1.0243,4,Memory Erasure
+-2,2,1,0,1.0250,108,Memory Erasure
+-2,3,1,-1,1.0284,152,Mending
+0,2,-1,2,1.0288,22,Mending
+0,1,0,3,1.0311,4,Mending
+-2,3,0,0,1.0311,128,Mending
+1,2,-1,1,1.0313,4,Mending
+-1,3,-1,1,1.0313,20,Mending
+-1,1,1,1,1.0410,48,Mending
+-2,4,3,-2,1.0417,2,Mending
+-2,2,3,-1,1.0417,2,Mending
+0,1,0,2,1.0445,60,Mending
+1,1,0,1,1.0470,60,Mending
+-1,1,2,0,1.0500,16,Metallurgy
+-1,2,1,-1,1.0509,178,Metallurgy
+-3,3,2,-1,1.0533,8,Metallurgy
+-1,2,0,0,1.0536,268,Metallurgy
+-2,2,0,1,1.0544,56,Metallurgy
+0,1,1,0,1.0550,128,Object Summoning
+-1,3,0,-1,1.0569,48,Object Summoning
+-2,4,2,-2,1.0607,14,Object Summoning
+-2,2,2,-1,1.0607,36,Object Summoning
+0,2,-1,1,1.0685,36,Object Summoning
+-2,3,3,-2,1.0712,4,Object Summoning
+3,0,1,3,1.0770,2,Object Summoning
+-1,3,1,-2,1.0803,16,Object Summoning
+-3,4,1,-1,1.0803,26,Object Summoning
+-1,2,-1,2,1.0806,16,Object Summoning
+-3,4,0,0,1.0828,12,Object Summoning
+0,1,0,1,1.0836,152,Object Summoning
+2,0,1,3,1.0843,2,Object Summoning
+0,1,2,-1,1.0898,16,Object Summoning
+-2,3,2,-2,1.0898,32,Precognition
+3,0,1,2,1.0899,2,Precognition
+-1,2,3,-2,1.0929,2,Precognition
+0,2,0,-1,1.0932,12,Precognition
+-2,4,0,-1,1.0932,12,Precognition
+-1,1,0,2,1.0956,16,Precognition
+-1,3,-1,0,1.0966,16,Precognition
+2,0,1,2,1.0970,10,Precognition
+-2,3,-1,1,1.0974,16,Precognition
+-1,1,1,0,1.1057,120,Precognition
+-3,2,1,0,1.1057,8,Precognition
+-3,3,1,-1,1.1088,60,Precognition
+-1,2,2,-2,1.1111,16,Precognition
+1,1,0,0,1.1113,16,Precognition
+-3,3,0,0,1.1113,40,Precognition
+-2,4,1,-2,1.1158,16,Precognition
+-2,2,1,-1,1.1158,162,Precognition
+1,0,1,2,1.1182,8,Retrocognition
+-2,2,0,0,1.1183,212,Retrocognition
+-1,2,-1,1,1.1185,76,Retrocognition
+-2,3,0,-1,1.1214,120,Retrocognition
+1,1,-1,3,1.1247,4,Retrocognition
+0,2,-1,0,1.1316,16,Retrocognition
+-1,1,0,1,1.1330,120,Retrocognition
+2,0,1,1,1.1343,8,Revoking Speech
+1,1,-1,2,1.1370,12,Revoking Speech
+-1,1,2,-1,1.1388,20,Revoking Speech
+-3,4,2,-2,1.1388,6,Revoking Speech
+-3,2,2,-1,1.1388,4,Revoking Speech
+-1,2,0,-1,1.1421,132,Revoking Speech
+0,1,1,-1,1.1435,40,Revoking Speech
+-2,3,1,-2,1.1435,60,Revoking Speech
+0,1,0,0,1.1459,120,Revoking Speech
+1,0,1,1,1.1548,20,Revoking Speech
+-2,2,3,-2,1.1555,2,Revoking Speech
+0,1,-1,3,1.1589,4,Revoking Speech
+-2,3,-1,0,1.1589,40,Revoking Speech
+-1,2,1,-2,1.1638,34,Shadow Wielding
+-3,3,2,-2,1.1660,12,Shadow Wielding
+-2,1,1,0,1.1675,32,Shadow Wielding
+-3,4,0,-1,1.1692,20,Shadow Wielding
+-4,4,1,-1,1.1705,2,Shadow Wielding
+0,1,-1,2,1.1709,32,Shadow Wielding
+-2,2,2,-2,1.1726,22,Shadow Wielding
+2,0,0,3,1.1729,4,Shadow Wielding
+1,1,-1,1,1.1731,8,Shadow Wielding
+-1,2,-1,0,1.1790,84,Shadow Wielding
+-2,2,-1,1,1.1797,44,Shadow Wielding
+2,0,0,2,1.1847,6,Shadow Wielding
+0,0,1,1,1.1882,12,Shadow Wielding
+-1,1,1,-1,1.1904,92,Shadow Wielding
+-3,4,1,-2,1.1904,22,Shadow Wielding
+-3,2,1,-1,1.1904,42,Shadow Wielding
+0,2,-2,2,1.1910,2,Shadow Wielding
+1,0,0,3,1.1927,4,Shadow Wielding
+-1,1,0,0,1.1927,208,Siphon
+-3,2,0,0,1.1927,44,Siphon
+-2,1,0,1,1.1934,24,Siphon
+-3,3,0,-1,1.1956,92,Siphon
+-2,4,2,-3,1.1961,2,Siphon
+-4,3,1,-1,1.1969,4,Siphon
+-2,1,2,-1,1.1990,4,Siphon
+-2,2,0,-1,1.2021,232,Siphon
+1,0,0,2,1.2043,22,Size Change
+0,1,-1,1,1.2059,60,Size Change
+1,0,1,0,1.2135,12,Size Change
+-3,3,1,-2,1.2163,56,Size Change
+-1,1,-1,2,1.2167,20,Size Change
+2,0,0,1,1.2193,2,Size Change
+-2,3,2,-3,1.2219,4,Size Change
+-2,2,1,-2,1.2227,74,Size Change
+0,2,-2,1,1.2255,2,Size Change
+0,1,0,-1,1.2278,24,Size Change
+-2,3,0,-2,1.2278,32,Size Change
+-3,3,-1,0,1.2309,24,Size Change
+-1,2,-2,2,1.2360,2,Size Change
+0,0,0,2,1.2363,16,Size Change
+-2,2,-1,0,1.2372,124,Size Change
+1,0,0,1,1.2384,26,Size Change
+-2,3,-1,-1,1.2400,24,Sound Seeker
+-1,1,2,-2,1.2438,4,Sound Seeker
+-3,2,2,-2,1.2438,6,Sound Seeker
+0,0,1,0,1.2452,20,Sound Seeker
+-1,2,0,-2,1.2468,8,Sound Seeker
+-2,1,1,-1,1.2480,60,Sound Seeker
+-2,1,0,0,1.2502,120,Sound Seeker
+-1,1,-1,1,1.2504,92,Sound Seeker
+-4,4,0,-1,1.2530,8,Sound Seeker
+-1,2,-1,-1,1.2587,24,Sound Seeker
+0,1,-1,0,1.2622,32,Sound Seeker
+-3,4,2,-3,1.2659,2,Sound Seeker
+-1,2,-2,1,1.2693,10,Sound Seeker
+0,0,0,1,1.2695,48,Sound Seeker
+-2,3,1,-3,1.2701,4,Sound Seeker
+-1,1,0,-1,1.2716,120,Sound Seeker
+-3,4,0,-2,1.2716,8,Storm Wielding
+-3,2,0,-1,1.2716,128,Storm Wielding
+-4,4,1,-2,1.2728,6,Storm Wielding
+-4,2,1,-1,1.2728,2,Storm Wielding
+-4,3,0,-1,1.2777,20,Storm Wielding
+-1,0,1,0,1.2884,8,Storm Wielding
+-3,3,2,-3,1.2903,4,Storm Wielding
+-1,1,1,-2,1.2911,20,Storm Wielding
+-3,2,1,-2,1.2911,46,Storm Wielding
+1,0,0,0,1.2933,8,Storm Wielding
+-3,3,0,-2,1.2959,60,Storm Wielding
+-2,2,2,-3,1.2964,2,Storm Wielding
+-4,3,1,-2,1.2971,12,Storm Wielding
+-2,1,2,-2,1.2991,4,Storm Wielding
+-2,2,0,-2,1.3019,78,Storm Wielding
+1,0,-1,3,1.3048,2,Storm Wielding
+-1,1,-1,0,1.3048,120,Storm Wielding
+-3,2,-1,0,1.3048,56,Truth-Sayer
+-2,1,-1,1,1.3055,40,Truth-Sayer
+-3,3,-1,-1,1.3075,40,Truth-Sayer
+-1,0,0,1,1.3119,24,Truth-Sayer
+-3,4,1,-3,1.3124,4,Truth-Sayer
+-2,2,-1,-1,1.3134,96,Truth-Sayer
+-3,1,1,-1,1.3151,8,Truth-Sayer
+1,0,-1,2,1.3154,6,Truth-Sayer
+0,1,-2,2,1.3156,4,Truth-Sayer
+-3,1,0,0,1.3172,16,Truth-Sayer
+0,0,1,-1,1.3210,8,Truth-Sayer
+-1,2,-2,0,1.3229,8,Truth-Sayer
+0,0,0,0,1.3231,44,Truth-Sayer
+-2,2,-2,1,1.3235,8,Truth-Sayer
+-2,1,0,-1,1.3257,152,Truth-Sayer
+0,0,-1,3,1.3344,2,Underwater Breathing
+-3,3,1,-3,1.3360,12,Underwater Breathing
+-2,2,1,-3,1.3419,8,Underwater Breathing
+-2,1,1,-2,1.3445,32,Underwater Breathing
+0,0,-1,2,1.3448,14,Underwater Breathing
+1,0,-1,1,1.3467,4,Underwater Breathing
+0,1,-2,1,1.3469,4,Underwater Breathing
+-4,4,0,-2,1.3491,10,Underwater Breathing
+-4,2,0,-1,1.3491,16,Underwater Breathing
+-1,1,-2,2,1.3566,4,Underwater Breathing
+-2,1,-1,0,1.3576,128,Underwater Breathing
+-3,2,2,-3,1.3611,2,Underwater Breathing
+-1,0,1,-1,1.3618,10,Underwater Breathing
+-1,0,0,0,1.3638,52,Underwater Breathing
+-1,1,0,-2,1.3664,16,Underwater Breathing
+-3,2,0,-2,1.3664,102,Underwater Breathing
+-4,2,1,-2,1.3675,6,Underwater Breathing
+-4,3,0,-2,1.3721,32,Underwater Breathing
+-2,2,-2,0,1.3750,20,Underwater Breathing
+0,0,-1,1,1.3754,28,Underwater Breathing
+-1,1,-1,-1,1.3773,48,Ward Extension
+-3,2,-1,-1,1.3773,106,Ward Extension
+-4,3,-1,-1,1.3830,16,Ward Extension
+-1,0,-1,2,1.3848,8,Ward Extension
+-1,1,-2,1,1.3869,20,Ward Extension
+-4,4,1,-3,1.3877,4,Ward Extension
+-3,1,0,-1,1.3890,60,Ward Extension
+0,0,0,-1,1.3947,12,Ward Extension
+-3,3,-1,-2,1.3998,16,Ward Extension
+-3,2,1,-3,1.4045,12,Ward Extension
+-2,2,-1,-2,1.4054,16,Ward Extension
+-3,1,1,-2,1.4069,12,Ward Extension
+-3,3,0,-3,1.4089,8,Ward Extension
+-4,3,1,-3,1.4100,8,Ward Extension
+-2,0,1,-1,1.4125,2,Ward Extension
+-2,0,0,0,1.4144,16,Ward Extension
+-2,2,0,-3,1.4144,2,Ward Extension
+-1,0,-1,1,1.4146,36,Ward Extension
+-2,1,0,-2,1.4169,60,Ward Extension
+-3,1,-1,0,1.4195,40,Ward Extension
+0,0,-1,0,1.4250,16,Ward Extension
+-2,1,-1,-1,1.4274,120,Ward Weaver
+-1,0,0,-1,1.4333,36,Ward Weaver
+-5,4,0,-2,1.4333,2,Ward Weaver
+-1,1,-2,0,1.4361,16,Ward Weaver
+-3,2,-2,0,1.4361,12,Ward Weaver
+-2,1,-2,1,1.4367,16,Ward Weaver
+-4,2,0,-2,1.4388,34,Ward Weaver
+-2,2,-2,-1,1.4440,12,Ward Weaver
+-4,2,-1,-1,1.4492,34,Ward Weaver
+-1,0,1,-2,1.4507,2,Ward Weaver
+-2,1,1,-3,1.4537,4,Ward Weaver
+-5,3,0,-2,1.4550,4,Ward Weaver
+-4,4,0,-3,1.4580,2,Ward Weaver
+-4,1,0,-1,1.4603,4,Ward Weaver
+-1,0,-1,0,1.4629,52,Ward Weaver
+-2,0,-1,1,1.4635,12,Ward Weaver
+-3,2,-1,-2,1.4652,54,Ward Weaver
+-4,3,-1,-2,1.4706,20,Ward Weaver
+0,0,-2,2,1.4725,2,Ward Weaver
+-3,2,0,-3,1.4739,18,Ward Weaver
+-4,2,1,-3,1.4750,4,Ward Weaver
+-3,1,0,-2,1.4763,56,Ward Weaver
+-4,3,0,-3,1.4792,12,Ward Weaver
+-2,0,0,-1,1.4816,28,Water Wielding
+-2,1,-2,0,1.4843,40,Water Wielding
+-3,1,-1,-1,1.4864,92,Water Wielding
+-2,0,1,-2,1.4984,2,Water Wielding
+0,0,-2,1,1.5006,2,Water Wielding
+-3,2,-2,-1,1.5023,20,Water Wielding
+-1,0,-2,2,1.5092,2,Water Wielding
+-2,0,-1,0,1.5102,44,Water Wielding
+-3,1,1,-3,1.5116,4,Water Wielding
+-2,1,-1,-2,1.5125,32,Water Wielding
+-1,0,0,-2,1.5180,8,Water Wielding
+-5,2,0,-2,1.5180,2,Water Wielding
+-2,1,0,-3,1.5209,4,Water Wielding
+-1,0,-1,-1,1.5279,24,Water Wielding
+-4,2,-1,-2,1.5330,46,Water Wielding
+-5,4,0,-3,1.5362,2,Water Wielding
+-1,0,-2,1,1.5366,10,Water Wielding
+-3,0,0,-1,1.5385,4,Water Wielding
+-3,1,-2,0,1.5411,24,Water Wielding
+-4,2,0,-3,1.5413,18,Water Wielding
+-4,1,0,-2,1.5436,12,Water Wielding
+-5,3,-1,-2,1.5482,4,Water Wielding
+-2,1,-2,-1,1.5484,24,Water Wielding
+-4,1,-1,-1,1.5532,20,Water Wielding
+-5,3,0,-3,1.5564,4,Water Wielding
+-2,0,0,-2,1.5637,14,Water Wielding
+-3,0,-1,0,1.5660,8,Water Wielding
+-3,2,-1,-3,1.5660,4,Water Wielding
+-3,1,-1,-2,1.5683,60,Water Wielding
+-4,2,-2,-1,1.5685,8,Weakness Detection
+-4,3,-1,-3,1.5710,4,Weakness Detection
+-2,0,-1,-1,1.5732,48,Weakness Detection
+-3,1,0,-3,1.5764,12,Weakness Detection
+-1,0,-2,0,1.5811,8,Weakness Detection
+-2,0,-2,1,1.5817,8,Weakness Detection
+-3,2,-2,-2,1.5833,8,Weakness Detection
+-3,1,-2,-1,1.6029,40,Weakness Detection
+-5,2,-1,-2,1.6076,8,Weakness Detection
+-5,2,0,-3,1.6155,2,Weakness Detection
+-3,0,0,-2,1.6177,6,Weakness Detection
+-2,0,-2,0,1.6250,20,Weakness Detection
+-3,0,-1,-1,1.6269,26,Weakness Detection
+-4,2,-1,-3,1.6296,12,Weakness Detection
+-4,1,-1,-2,1.6317,32,Weakness Detection
+-4,1,0,-3,1.6396,8,Weakness Detection
+-5,3,-1,-3,1.6439,4,Weakness Detection
+-4,2,-2,-2,1.6462,10,Weakness Detection
+-2,0,-1,-2,1.6508,16,Weakness Detection
+-2,0,0,-3,1.6585,2,Weakness Detection
+-3,1,-1,-3,1.6628,8,Weakness Detection
+-4,1,-2,-1,1.6651,16,Weakness Detection
+-3,0,-2,0,1.6771,12,Weakness Detection
+-3,1,-2,-2,1.6791,16,Weakness Detection
+-2,0,-2,-1,1.6838,12,Weakness Detection
+-4,0,-1,-1,1.6882,2,Weakness Detection
+-5,2,-1,-3,1.7000,8,Weakness Detection
+-3,0,-1,-2,1.7020,22,Weakness Detection
+-5,1,-1,-2,1.7020,4,Weakness Detection
+-3,0,0,-3,1.7095,2,Weakness Detection
+-5,2,-2,-2,1.7159,2,Weakness Detection
+-4,1,-1,-3,1.7228,12,Weakness Detection
+-3,0,-2,-1,1.7341,20,Weakness Detection
+-4,2,-2,-3,1.7366,2,Weakness Detection
+-4,1,-2,-2,1.7386,20,Weakness Detection
+-4,0,-1,-2,1.7607,6,Weakness Detection
+-3,0,-1,-3,1.7896,4,Weakness Detection
+-5,1,-1,-3,1.7896,4,Weakness Detection
+-4,0,-2,-1,1.7917,8,Weakness Detection
+-5,2,-2,-3,1.8028,2,Weakness Detection
+-3,0,-2,-2,1.8047,8,Weakness Detection
+-5,1,-2,-2,1.8047,4,Weakness Detection
+-4,1,-2,-3,1.8243,4,Weakness Detection
+-4,0,-1,-3,1.8454,4,Weakness Detection
+-4,0,-2,-2,1.8601,10,Weakness Detection
+-5,1,-2,-3,1.8875,4,Weakness Detection
+-5,0,-2,-2,1.9221,2,Weakness Detection
+-4,0,-2,-3,1.9405,2,Weakness Detection
+-5,0,-2,-3,2.0000,2,Weakness Detection

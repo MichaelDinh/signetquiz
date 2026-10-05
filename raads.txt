@@ -1,0 +1,25 @@
+Social Relatedness (SR), Sensory Motor (SM), Circumscribed Interests (CI), Language (L)
+
+1. It is easy for me to understand how other people are feeling when we are talking  [-1 SR]
+2. Some ordinary textures that do not bother others feel very offensive when they touch my skin. [+1 SM]
+3. It is very easy for me to work in groups. [-1 SR, -1 L]
+4. It is difficult to figure out what other people expect of me. [+1 SR, +1 L]
+5. I often don’t know how to act in social situations. [+1 SR, +1 CI]
+6. I can make small talk easily with people. [-1 SR, -1 CI, -1 L]
+7. When I feel overwhelmed by my senses, I have to isolate myself to shut them down. [+1 SM, +1 CI]
+8. It is easy for me to make friends. [-1 SR, -1 CI]
+9. When talking to someone, I have a hard time telling when it is my turn to talk or to listen. [+1 SR, +1 L]
+10. I get bothered by loud noises. [+1 SM]
+11. It is easy to read someone’s face, hand, and body movements when we are talking. [-1 SR, -1 L]
+12. I focus on details rather than the overall idea. [nothing]
+13. I take things too literally, so I often miss what people are trying to say. [+1 L]
+14. I get extremely upset when the way I like to do things is suddenly changed. [+1 CI, +1 SM]
+
+min/max
+-5 SR
++3 SR
++4 SM
+-3 L
++3 L
++3 CI
+-2 CI

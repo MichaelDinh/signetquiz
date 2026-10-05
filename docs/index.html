@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Which Signet Are You?</title>
+<style>
+  :root {
+    --bg: #14110f; --card: #211c18; --text: #f1e9e0; --muted: #a89c90;
+    --accent: #d9822b; --accent-text: #1a1209; --border: #3a322b;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f5efe8; --card: #fff; --text: #241d17; --muted: #6f655c;
+            --accent: #b85f12; --accent-text: #fff; --border: #ded3c7; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px;
+    background: var(--bg); color: var(--text);
+    font: 18px/1.5 Georgia, "Times New Roman", serif;
+  }
+  main {
+    width: 100%; max-width: 620px; background: var(--card);
+    border: 1px solid var(--border); border-radius: 12px; padding: 32px;
+  }
+  h1 { margin: 0 0 8px; font-size: 1.8rem; }
+  h2 { margin: 0 0 24px; font-size: 1.35rem; font-weight: normal; }
+  p { margin: 0 0 24px; }
+  .muted { color: var(--muted); }
+  .progress { height: 6px; background: var(--border); border-radius: 3px; margin-bottom: 8px; overflow: hidden; }
+  .progress div { height: 100%; background: var(--accent); transition: width .2s; }
+  .count { font-size: .85rem; color: var(--muted); margin-bottom: 24px; }
+  .choices { display: grid; gap: 12px; margin-bottom: 28px; }
+  .choices label {
+    display: block; padding: 14px 16px; border: 1px solid var(--border); border-radius: 8px;
+    cursor: pointer;
+  }
+  .choices label:hover { border-color: var(--accent); }
+  .choices input { position: absolute; opacity: 0; }
+  .choices input:checked + span { color: var(--accent); font-weight: bold; }
+  .choices label:has(input:checked) { border-color: var(--accent); }
+  .choices label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button {
+    font: inherit; padding: 12px 28px; border: 0; border-radius: 8px;
+    background: var(--accent); color: var(--accent-text); cursor: pointer;
+  }
+  button:disabled { opacity: .4; cursor: not-allowed; }
+  .type { display: inline-block; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase;
+          color: var(--accent); margin-bottom: 4px; }
+  .signet { font-size: 2rem; margin: 0 0 16px; }
+  [hidden] { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <section id="start">
+    <h1>Which Signet Are You?</h1>
+    <p class="muted">Answer 14 true/false statements, one at a time, to find the signet that fits you.</p>
+    <button id="begin">Begin</button>
+  </section>
+
+  <section id="question" hidden>
+    <div class="progress"><div id="bar"></div></div>
+    <div class="count" id="count"></div>
+    <h2 id="qtext"></h2>
+    <form id="form" class="choices">
+      <label><input type="radio" name="a" value="1"><span>True</span></label>
+      <label><input type="radio" name="a" value="0"><span>False</span></label>
+    </form>
+  </section>
+
+  <section id="result" hidden>
+    <div class="type" id="rtype"></div>
+    <h1 class="signet" id="rname"></h1>
+    <p id="rdesc"></p>
+    <button id="again">Take it again</button>
+  </section>
+</main>
+
+<script src="data.js"></script>
+<script>
+  const $ = id => document.getElementById(id);
+  const sections = ["start", "question", "result"];
+  const show = name => sections.forEach(s => $(s).hidden = s !== name);
+
+  let index = 0, answers = [];
+
+  function renderQuestion() {
+    const total = QUIZ_DATA.questions.length;
+    $("qtext").textContent = QUIZ_DATA.questions[index];
+    $("count").textContent = `Question ${index + 1} of ${total}`;
+    $("bar").style.width = `${(index / total) * 100}%`;
+    $("form").reset();
+  }
+
+  function scoreVector() {
+    const totals = Object.fromEntries(QUIZ_DATA.dims.map(d => [d, 0]));
+    answers.forEach((yes, i) => {
+      if (!yes) return;
+      for (const [dim, value] of Object.entries(QUIZ_DATA.effects[i])) totals[dim] += value;
+    });
+    return QUIZ_DATA.dims.map(d => totals[d]).join(",");
+  }
+
+  function showResult() {
+    const name = QUIZ_DATA.table[scoreVector()];
+    const info = QUIZ_DATA.signets[name];
+    $("rtype").textContent = info.type ? `${info.type} signet` : "Signet";
+    $("rname").textContent = name;
+    $("rdesc").textContent = info.description;
+    show("result");
+  }
+
+  $("begin").onclick = () => { index = 0; answers = []; renderQuestion(); show("question"); };
+  let advancing = false;
+  $("form").onchange = () => {
+    if (advancing) return;
+    advancing = true;
+    answers.push($("form").a.value === "1");
+    setTimeout(() => {  // brief pause so the selection is visible
+      advancing = false;
+      if (++index < QUIZ_DATA.questions.length) renderQuestion(); else showResult();
+    }, 180);
+  };
+  $("again").onclick = () => show("start");
+</script>
+</body>
+</html>
